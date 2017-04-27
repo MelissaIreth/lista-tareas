@@ -73,11 +73,11 @@ function myFunction(){
   var tarea = document.getElementById("tareaInput").value;
   var agregar = document.getElementsByClassName("add");
 
-  agregar[0].innerHTML += "<ul><li>" +tarea + "</li></ul>";
+  agregar[0].innerHTML += "<li>" +tarea + "</li>";
 }
 
-myFunction();
-
+ 
 res.forEach(function(elemento){
-  document.write("<ul><li>" + elemento.title + "</li></ul>") ;
+  var niu = document.getElementById("nuevo");
+  niu.innerHTML += "<li>" + elemento.title + "</li>" ;
 });

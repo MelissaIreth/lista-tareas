@@ -73,11 +73,11 @@ function myFunction(){
   var tarea = document.getElementById("tareaInput").value;
   var agregar = document.getElementsByClassName("add");
 
-  agregar[0].innerHTML += "<ul><li>" +tarea + "</li></ul></br>";
+  agregar[0].innerHTML += "<ul><li>" +tarea + "</li></ul>";
 }
 
 myFunction();
 
 res.forEach(function(elemento){
-  document.write("<ul><li>" + elemento.title + "</li></ul></br>") ;
+  document.write("<ul><li>" + elemento.title + "</li></ul>") ;
 });

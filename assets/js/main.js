@@ -1200,3 +1200,10 @@ var res = [
     "completed": false
   }
 ];
+
+
+function myFunction(){
+	var mostrar = document.getElementById("inputTarea").value;
+	var nueva = document.getElementById("agregar");
+
+	}
